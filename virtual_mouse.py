@@ -122,7 +122,7 @@ while True:
 	# Obtenha a posição dos dedos da mão        
 	countFingers(image, hand_landmarks)
 
-	cv2.imshow("Media Controller", image)
+	cv2.imshow("ontrolador de Midia", image)
 
 	# Saia da tela ao pressionar a barra de espaço
 	key = cv2.waitKey(1)
